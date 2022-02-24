@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "BxbgUl+mN/D54DVVLowRf4GKOW1p3LZs7UqIAG0wfcg=",
-  "Source": "ApiApp",
-  "BasePath": "_content/ApiApp",
+  "Hash": "+uhcN7JsEKqP1WxkRMDj7jMeUU2RFsCCGMPAZ9Kox98=",
+  "Source": "src",
+  "BasePath": "_content/src",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

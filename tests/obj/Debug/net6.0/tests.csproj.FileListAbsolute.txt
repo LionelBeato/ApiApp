@@ -96,3 +96,15 @@
 /Users/lionel.beato/Projects/dotnet/ApiApp/tests/obj/Debug/net6.0/tests.pdb
 /Users/lionel.beato/Projects/dotnet/ApiApp/tests/obj/Debug/net6.0/tests.genruntimeconfig.cache
 /Users/lionel.beato/Projects/dotnet/ApiApp/tests/obj/Debug/net6.0/ref/tests.dll
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/CoverletSourceRootsMapping
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/src.deps.json
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/src.runtimeconfig.json
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/appsettings.Development.json
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/appsettings.json
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/src
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/src.dll
+/Users/lionel.beato/Projects/dotnet/ApiApp/tests/bin/Debug/net6.0/src.pdb
