@@ -11,7 +11,7 @@ public class YoshiController
     {
         "Blue", "Red", "Brown", "Yellow", "Pink", "Black", "White", "Orange", "Green"
     };
-
+    
     private static readonly string[] Fruits = new[]
     {
         "Banana", "Apple", "Grape", "Pear", "Passionfruit", "Starfruit"
