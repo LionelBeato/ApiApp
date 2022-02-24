@@ -1,3 +1,5 @@
 namespace ApiApp.Models;
 
-public record Yoshi(int id, string Color, string ShoeColor);
+public record Fruit(string Name, string Ripeness); 
+
+public record Yoshi(int Id, string Color, string ShoeColor, Fruit FavoriteFruit);

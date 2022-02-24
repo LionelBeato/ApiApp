@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lionel.beato/Projects/dotnet/ApiApp/ApiApp.csproj": {}
+    "/home/leo/Projects/dotnet/ApiApp/ApiApp.csproj": {}
   },
   "projects": {
-    "/Users/lionel.beato/Projects/dotnet/ApiApp/ApiApp.csproj": {
+    "/home/leo/Projects/dotnet/ApiApp/ApiApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lionel.beato/Projects/dotnet/ApiApp/ApiApp.csproj",
+        "projectUniqueName": "/home/leo/Projects/dotnet/ApiApp/ApiApp.csproj",
         "projectName": "ApiApp",
-        "projectPath": "/Users/lionel.beato/Projects/dotnet/ApiApp/ApiApp.csproj",
-        "packagesPath": "/Users/lionel.beato/.nuget/packages/",
-        "outputPath": "/Users/lionel.beato/Projects/dotnet/ApiApp/obj/",
+        "projectPath": "/home/leo/Projects/dotnet/ApiApp/ApiApp.csproj",
+        "packagesPath": "/home/leo/.nuget/packages/",
+        "outputPath": "/home/leo/Projects/dotnet/ApiApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/lionel.beato/.nuget/NuGet/NuGet.Config"
+          "/home/leo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
