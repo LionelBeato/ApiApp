@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/src/Repositories/YoshiRepository.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Castle.Core.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Moq.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/YoshiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/YoshiService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.dll" afterDir="false" />
@@ -119,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645717751681</updated>
-      <workItem from="1645717756053" duration="3604000" />
+      <workItem from="1645717756053" duration="4320000" />
     </task>
     <servers />
   </component>
