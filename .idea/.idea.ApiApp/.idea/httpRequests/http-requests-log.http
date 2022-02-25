@@ -1,0 +1,40 @@
+GET https://localhost:7071/WeatherForecast
+
+###
+
+GET https://localhost:7071/WeatherForecast
+
+<> 2022-02-25T153706.200.json
+
+###
+
+GET https://localhost:7071/yoshi
+
+<> 2022-02-25T153659.200.json
+
+###
+
+GET http://localhost:7071/Yoshi
+
+###
+
+GET http://localhost:7071/Yoshi
+
+###
+
+GET http://localhost:7071/WeatherForecast
+
+###
+
+GET http://localhost:7071/Yoshi
+
+###
+
+GET http://localhost:8080/Yoshi
+
+###
+
+GET http://localhost:8080/Yoshi
+
+###
+

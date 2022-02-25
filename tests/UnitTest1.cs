@@ -1,3 +1,4 @@
+using ApiApp.Models;
 using ApiApp.Service;
 using Moq;
 using NUnit.Framework;
@@ -24,5 +25,11 @@ public class Tests
         _yoshiService.Verify(x => x.HelloWorld()); 
         
         // Assert.AreEqual(expected, actual);
+    }
+    
+    [Test]
+    public void Test2()
+    {
+        Yoshi myYoshi = new Yoshi(1, "Blue", "Black", new Fruit("Passion Fruit", "ripe"));
     }
 }

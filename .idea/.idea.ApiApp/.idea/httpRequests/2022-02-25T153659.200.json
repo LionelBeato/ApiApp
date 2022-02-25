@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "color": "Pink",
+    "shoeColor": "Orange",
+    "favoriteFruit": {
+      "name": "Starfruit",
+      "ripeness": "Somewhat Ripe"
+    }
+  },
+  {
+    "id": 2,
+    "color": "Orange",
+    "shoeColor": "Green",
+    "favoriteFruit": {
+      "name": "Passionfruit",
+      "ripeness": "Really Ripe"
+    }
+  },
+  {
+    "id": 3,
+    "color": "Blue",
+    "shoeColor": "Red",
+    "favoriteFruit": {
+      "name": "Apple",
+      "ripeness": "Ripe"
+    }
+  },
+  {
+    "id": 4,
+    "color": "Red",
+    "shoeColor": "Green",
+    "favoriteFruit": {
+      "name": "Banana",
+      "ripeness": "Unripe"
+    }
+  },
+  {
+    "id": 5,
+    "color": "Orange",
+    "shoeColor": "Yellow",
+    "favoriteFruit": {
+      "name": "Passionfruit",
+      "ripeness": "Ripe"
+    }
+  }
+]
