@@ -1,24 +1,28 @@
 using ApiApp.Service;
+using Moq;
 using NUnit.Framework;
 
 namespace tests;
 
 public class Tests
 {
-    private YoshiService _yoshiService; 
+    private Mock<IYoshiService> _yoshiService; 
 
-        [SetUp]
+    [SetUp]
     public void Setup()
     {
-        _yoshiService = new YoshiService(); 
+        _yoshiService = new Mock<IYoshiService>(); 
     }
 
     [Test]
     public void Test1()
     {
+        _yoshiService.Setup(x => x.HelloWorld()).Returns("Hello World!"); 
         var expected = "Hello World!";
-        var actual = _yoshiService.HelloWorld(); 
+
+        _yoshiService.Object.HelloWorld();
+        _yoshiService.Verify(x => x.HelloWorld()); 
         
-        Assert.AreEqual(expected, actual);
+        // Assert.AreEqual(expected, actual);
     }
 }
