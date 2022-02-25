@@ -23,7 +23,7 @@ public class YoshiController
     };
 
 
-    [HttpGet(Name = "yoshi")]
+    [HttpGet(Name = "Yoshi")]
     public IEnumerable<Yoshi> GetAllYoshi()
     {
         return Enumerable.Range(1, 5)
