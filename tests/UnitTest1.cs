@@ -30,6 +30,6 @@ public class Tests
     [Test]
     public void Test2()
     {
-        Yoshi myYoshi = new Yoshi(1, "Blue", "Black", new Fruit("Passion Fruit", "ripe"));
+        // Yoshi myYoshi = new Yoshi(1, "Blue", "Black", new Fruit("Passion Fruit", "ripe"));
     }
 }
