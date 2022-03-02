@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aPYGfif13HWwwmPHZLfV9tHswB0o7NvGjYroLm48ZxzZaHBjKpJUTQwDzLRzmZKTOizfPm63IHdxS6RP4nza2Q==",
+  "dgSpecHash": "c2Lq0o+qk2EIZqN3ubqZg6emWbpMfoJBMrt/YhEaCq6qGwBSngurb62AyEfqJUzxB/d3HK6BeuY0YrQswK0+Og==",
   "success": true,
   "projectFilePath": "/Users/lionel.beato/Projects/dotnet/ApiApp/tests/tests.csproj",
   "expectedPackageFiles": [
