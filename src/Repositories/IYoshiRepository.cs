@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ApiApp.Repositories;
 
-public interface IYoshiRepository
+public interface IYoshiRepository : IDisposable
 {
 
-    public IQueryable<Yoshi> GetAllYoshi();
+    public List<Yoshi> GetAllYoshi();
     
     public Yoshi? GetYoshiById(int id);
 

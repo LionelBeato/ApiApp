@@ -9,6 +9,7 @@
       "src/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.0-preview.1.22076.6",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.0-preview.1.22076.6",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0-preview.1.22076.6",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.0-preview.1.22076.6",

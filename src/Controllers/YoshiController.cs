@@ -19,7 +19,7 @@ public class YoshiController : ControllerBase
     }
 
     [HttpGet]
-    public IQueryable<Yoshi> GetAllYoshi()
+    public List<Yoshi> GetAllYoshi()
     {
         // navigation props are null by default due to lazy loading
         // you must specify include() in order to enable eager loading 
