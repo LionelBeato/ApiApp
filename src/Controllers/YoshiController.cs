@@ -6,54 +6,46 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ApiApp.Controllers;
 
-
-
-
 [ApiController]
 [Route("[controller]")]
-public class YoshiController
+public class YoshiController : ControllerBase
 {
 
-    private YoshiContext yoshiContext;
+    private IYoshiRepository _repository; 
 
-    public YoshiController()
+    public YoshiController(IYoshiRepository repository)
     {
-        var options = new DbContextOptionsBuilder<YoshiContext>()
-            .UseInMemoryDatabase("Test")
-            .Options;
-
-
-        yoshiContext = new YoshiContext(options);
+        _repository = repository; 
     }
 
     [HttpGet]
-    public IQueryable GetAllYoshi()
+    public IQueryable<Yoshi> GetAllYoshi()
     {
         // navigation props are null by default due to lazy loading
         // you must specify include() in order to enable eager loading 
-        return yoshiContext.Yoshis.Include(y => y.Fruit); 
+        // return yoshiContext.Yoshis.Include(y => y.Fruit); 
+        return _repository.GetAllYoshi(); 
     }
 
-    [HttpGet("/Fruit")]
-    public DbSet<Fruit> GetAllFruit()
+    [HttpGet]
+    [Route("{id}")]
+    public IActionResult GetYoshiById(int id)
     {
-        return yoshiContext.Fruits; 
+        // add in NotFound()
+        return Ok(_repository.GetYoshiById(id)); 
     }
-
-    [HttpPost("/Fruit")]
-    public void AddFruit(Fruit fruit)
-    {
-        yoshiContext.Fruits.Add(fruit);
-        yoshiContext.SaveChanges(); 
-    }
-
+    
     // TODO: Add Yoshi
-
     [HttpPost]
     public void AddYoshi(Yoshi yoshi)
+    { 
+        _repository.CreateYoshi(yoshi); 
+    }
+
+    [HttpGet("/hello")]
+    public string hello()
     {
-        yoshiContext.Yoshis.Add(yoshi);
-        yoshiContext.SaveChanges(); 
+        return _repository.test(); 
     }
     
     // TODO: Fix issue where navigation property doesn't reference already added Fruits

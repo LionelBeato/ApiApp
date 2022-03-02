@@ -15,11 +15,18 @@ public class YoshiContext : DbContext
         
     }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        // modelBuilder.Entity<Yoshi>()
-        //     .HasOne(y => y.Fruit)
-        //     .WithMany();
-
-    }
+    // protected override void OnModelCreating(ModelBuilder modelBuilder)
+    // {
+    //     modelBuilder.Entity<Yoshi>()
+    //         .HasOne(y => y.Fruit)
+    //         .WithMany();
+    //
+    // }
+    
+    // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    // {
+    //     optionsBuilder.UseInMemoryDatabase("Test"); 
+    // }
+    
+    
 }
