@@ -1,5 +1,6 @@
 using ApiApp.Models;
 using ApiApp.Repositories;
+using ApiApp.Service;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,11 +12,11 @@ namespace ApiApp.Controllers;
 public class YoshiController : ControllerBase
 {
 
-    private IYoshiRepository _repository; 
+    private IYoshiService _yoshiService; 
 
-    public YoshiController(IYoshiRepository repository)
+    public YoshiController(IYoshiService yoshiService)
     {
-        _repository = repository; 
+        _yoshiService = yoshiService; 
     }
 
     [HttpGet]
@@ -24,7 +25,7 @@ public class YoshiController : ControllerBase
         // navigation props are null by default due to lazy loading
         // you must specify include() in order to enable eager loading 
         // return yoshiContext.Yoshis.Include(y => y.Fruit); 
-        return _repository.GetAllYoshi(); 
+        return _yoshiService.GetAllYoshis(); 
     }
 
     [HttpGet]
@@ -32,26 +33,13 @@ public class YoshiController : ControllerBase
     public IActionResult GetYoshiById(int id)
     {
         // add in NotFound()
-        return Ok(_repository.GetYoshiById(id)); 
+        return Ok(_yoshiService.GetYoshiById(id)); 
     }
     
-    // TODO: Add Yoshi
     [HttpPost]
     public void AddYoshi(Yoshi yoshi)
     { 
-        _repository.CreateYoshi(yoshi); 
+        _yoshiService.SaveYoshi(yoshi); 
     }
-
-    [HttpGet("/hello")]
-    public string hello()
-    {
-        return _repository.test(); 
-    }
-    
-    // TODO: Fix issue where navigation property doesn't reference already added Fruits
-    
-    // TODO: Get One Yoshi
-    // TODO: Delete Yoshi
-    // TODO: Update Yoshi
 
 }

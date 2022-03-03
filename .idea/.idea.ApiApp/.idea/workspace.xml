@@ -6,36 +6,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b63c43b8-747d-4019-8b2c-88eea2e99e16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Models/Fruit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ServiceTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/SQLitePCLRaw.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiApp.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ApiApp.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/WeatherForecastController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/YoshiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/YoshiController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Yoshi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Yoshi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/WeatherForecast.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repositories/IYoshiRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/IYoshiRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repositories/YoshiContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/YoshiContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repositories/YoshiRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/YoshiRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/IYoshiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/IYoshiService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/YoshiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/YoshiService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/Debug/net6.0/ref/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net6.0/ref/src.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/Debug/net6.0/refint/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net6.0/refint/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/src.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/src.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/src.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/net6.0/src.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/src.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/net6.0/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/src.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/net6.0/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/src.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/net6.0/tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/net6.0/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/net6.0/tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/ref/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/ref/tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/refint/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/refint/tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +116,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="HotReloadSettingsPage" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.ApiApp">
+  <component name="RunManager" selected="9a5cde67-119e-4d50-b8c1-21d03640f3b6">
     <configuration name="ApiApp-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ApiApp-endpoints.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -112,6 +156,22 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="NodeunitConfigurationType" factoryName="Nodeunit" nameIsGenerated="true">
+      <setting name="nodePath" value="project" />
+      <envs />
+      <setting name="nodeunitModuleDir" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="testType" value="JS_FILE" />
+      <setting name="jsFile" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.ApiApp" />
+      <item itemvalue=".NET Launch Settings Profile.ApiApp: IIS Express" />
+      <item itemvalue="HTTP Request.ApiApp-endpoints | #1" />
+      <item itemvalue="HTTP Request.ApiApp-endpoints | #2" />
+      <item itemvalue="Nodeunit.Unnamed" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.ApiApp-endpoints | #2" />
@@ -128,7 +188,9 @@
       <option name="presentableId" value="Default" />
       <updated>1645717751681</updated>
       <workItem from="1645717756053" duration="10967000" />
-      <workItem from="1646079395420" duration="46509000" />
+      <workItem from="1646079395420" duration="51178000" />
+      <workItem from="1646334877715" duration="50000" />
+      <workItem from="1646334946674" duration="1008000" />
     </task>
     <servers />
   </component>

@@ -12,5 +12,7 @@ public interface IYoshiRepository : IDisposable
 
     public void CreateYoshi(Yoshi yoshi);
 
+    public void DeleteYoshi(Yoshi yoshi);
+
     public string test();
 }

@@ -32,6 +32,11 @@ public class YoshiRepository : IYoshiRepository
         _yoshiContext.SaveChanges(); 
     }
 
+    public void DeleteYoshi(Yoshi yoshi)
+    {
+        _yoshiContext.Yoshis.Remove(yoshi); 
+    }
+
     public string test()
     {
         return "hello world!"; 

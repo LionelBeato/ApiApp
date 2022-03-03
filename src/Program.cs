@@ -1,45 +1,48 @@
 using ApiApp.Models;
 using ApiApp.Repositories;
+using ApiApp.Service;
 using Microsoft.EntityFrameworkCore;
 
 
-// var options = new DbContextOptionsBuilder<YoshiContext>().UseInMemoryDatabase("Test").Options; 
-//
-// using (var context = new YoshiContext(options))
-// {
-//     var yoshiSeed = new List<Yoshi> {
-//         new Yoshi
-//         {
-//             YoshiId = -1,
-//             Color = "Blue",
-//             FruitId = 1,
-//             ShoeColor = "Pink"
-//         },
-//         new Yoshi
-//         {
-//             YoshiId = -2,
-//             Color = "Red",
-//             FruitId = 1,
-//             ShoeColor = "Green"
-//         },
-//         new Yoshi
-//         {
-//             YoshiId = -3,
-//             Color = "Green",
-//             FruitId = 1,
-//             ShoeColor = "Brown"
-//         }
-//     };
-//     
-//     context.Yoshis.AddRange(yoshiSeed);
-//     context.SaveChanges(); 
-// }
+var options = new DbContextOptionsBuilder<YoshiContext>().UseInMemoryDatabase("Test").Options; 
+
+using (var context = new YoshiContext(options))
+{
+    var yoshiSeed = new List<Yoshi> {
+        new Yoshi
+        {
+            YoshiId = -1,
+            Color = "Blue",
+            // FruitId = 1,
+            ShoeColor = "Pink"
+        },
+        new Yoshi
+        {
+            YoshiId = -2,
+            Color = "Red",
+            // FruitId = 1,
+            ShoeColor = "Green"
+        },
+        new Yoshi
+        {
+            YoshiId = -3,
+            Color = "Green",
+            // FruitId = 1,
+            ShoeColor = "Brown"
+        }
+    };
+    
+    context.Yoshis.AddRange(yoshiSeed);
+    context.SaveChanges(); 
+}
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<YoshiContext>();
+builder.Services.AddDbContext<YoshiContext>(op => op.UseInMemoryDatabase("test"));
+builder.Services.AddScoped<IYoshiService, YoshiService>();
 builder.Services.AddScoped<IYoshiRepository, YoshiRepository>(); 
+
 builder.Services.AddControllers();
 // builder.Services.AddScoped<YoshiRepository>();
 // builder.Services.AddTransient<YoshiRepository>();
