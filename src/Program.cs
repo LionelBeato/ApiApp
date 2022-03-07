@@ -9,27 +9,8 @@ var options = new DbContextOptionsBuilder<YoshiContext>().UseInMemoryDatabase("T
 using (var context = new YoshiContext(options))
 {
     var yoshiSeed = new List<Yoshi> {
-        new Yoshi
-        {
-            YoshiId = -1,
-            Color = "Blue",
-            // FruitId = 1,
-            ShoeColor = "Pink"
-        },
-        new Yoshi
-        {
-            YoshiId = -2,
-            Color = "Red",
-            // FruitId = 1,
-            ShoeColor = "Green"
-        },
-        new Yoshi
-        {
-            YoshiId = -3,
-            Color = "Green",
-            // FruitId = 1,
-            ShoeColor = "Brown"
-        }
+        new Yoshi("Blue","Pink"),
+        new Yoshi("Orange","Purple"),
     };
     
     context.Yoshis.AddRange(yoshiSeed);
@@ -58,6 +39,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// minimal API can be used thusly 
+app.MapGet("/", () => "Hello World!"); 
 
 app.UseHttpsRedirection();
 app.UseAuthorization();

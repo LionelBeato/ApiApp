@@ -25,8 +25,8 @@ public class ServiceTest
     {
 
         const int id = 1;
-        var yoshi = new Yoshi {Color = "red", ShoeColor = "black", YoshiId = id}; 
-        // sets up an expectation for this object's method call 
+        var yoshi = new Yoshi( "black", "red") {YoshiId = id};
+            // sets up an expectation for this object's method call 
         // all dependant objects will act in accordance to this setup
         _repository.Setup(r => r.GetYoshiById(id))
             .Returns(yoshi);
@@ -42,14 +42,24 @@ public class ServiceTest
     {
         var yoshis = new List<Yoshi>
         {
-            new Yoshi {Color = "red", ShoeColor = "black", YoshiId = 1},
-            new Yoshi {Color = "blue", ShoeColor = "yellow", YoshiId = 2},
+            new Yoshi ("black",  "red"),
+            new Yoshi ("black",  "red")
+
 
         };
 
         _repository.Setup(r => r.GetAllYoshi()).Returns(yoshis); 
         
         Assert.AreEqual(_service.GetAllYoshis(), yoshis);
+    }
+
+    [Test]
+    public void EqualityCheck()
+    {
+        var y1 = new Yoshi("black", "red");
+        var y2 = new Yoshi("black", "red");
+        
+        Assert.AreEqual(y1, y2);
     }
 
 }
