@@ -8,6 +8,9 @@ Simple .NET app to toy around with how APIs are handled in the framework.
 - Add service layer
 - Add tests
 
+## Notes
+
+- Records seem to work fine with EF Core. I'll have to research this further. 
 
 ## Current Issues
 

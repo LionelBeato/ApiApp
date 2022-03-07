@@ -6,26 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b63c43b8-747d-4019-8b2c-88eea2e99e16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Test.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Yoshi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Yoshi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Fruit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Fruit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/net6.0/src.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/Debug/net6.0/ref/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net6.0/ref/src.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/Debug/net6.0/refint/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net6.0/refint/src.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net6.0/src.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ServiceTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/net6.0/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/net6.0/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/src.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/net6.0/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/net6.0/tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/net6.0/tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/ref/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/ref/tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/refint/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/refint/tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/net6.0/tests.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +129,7 @@
       <workItem from="1645717756053" duration="10967000" />
       <workItem from="1646079395420" duration="51178000" />
       <workItem from="1646334877715" duration="50000" />
-      <workItem from="1646334946674" duration="4793000" />
+      <workItem from="1646334946674" duration="8851000" />
     </task>
     <servers />
   </component>

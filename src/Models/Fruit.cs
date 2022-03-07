@@ -1,9 +1,9 @@
 namespace ApiApp.Models;
 
-public class Fruit
+public record Fruit (string Name)
 {
-    public int FruitId { get; set; }
-    public string Name { get; set; }
+    public int FruitId { get; init; }
+    // public string Name { get; set; }
     // public List<Yoshi> Yoshis { get; set; }
 
 }
